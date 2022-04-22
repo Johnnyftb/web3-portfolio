@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&family=Poppins:wght@300&display=swap');
+
+:root {
+    --primary-: #4bd2fd;
+}
+
+#message {
+    height: 100px;
+    resize: none;
+}
+
+#my-photo {
+    width: 50%;
+}
+
+.about .desc {
+    width: 75%;
+}
+
+@media (min-width: 992px) {
+    .about .desc {
+        width: 50%;
+    }
+
+    #my-photo {
+        width: 25%;
+    }
+}
+
+/* Backgrounds, Colors and Fonts */
+.bg-blue {
+    background-color: var(--primary-);
+}
+
+.text-blue {
+    color: var(--primary-);
+}
+
+.text-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-baloo {
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
